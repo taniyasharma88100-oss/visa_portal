@@ -9,7 +9,7 @@ const Home = () => {
 <section
   className="relative w-full min-h-[620px] h-screen max-h-[520px] overflow-hidden bg-black"
   style={{
-    backgroundImage: "url('public/home-img/img-1.jpg')",
+    backgroundImage: "url('/home-img/img-1.jpg')",
     backgroundSize: "cover",
     backgroundPosition: "center center",
   }}

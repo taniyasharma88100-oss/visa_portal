@@ -12,6 +12,10 @@ app.use(cors({
   origin: [
     "http://localhost:5173",
     "https://visa-portal-amber.vercel.app",
+    "https://arcthehotel.work",
+  "https://www.arcthehotel.work",
+  "https://arcthehotels.com",
+  "https://www.arcthehotels.com"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true

@@ -24,7 +24,7 @@ const Amenities = () => {
 {/* HERO IMAGE */}
 <section
   className="w-full h-[240px] md:h-[382px] bg-[#3a3a3a] bg-cover bg-center"
-  style={{ backgroundImage: "url('public/other-pages-img/img-9.jpg')" }}
+  style={{ backgroundImage: "url('/other-pages-img/img-9.jpg')" }}
 />
 
 

@@ -7,7 +7,7 @@ const Dining = () => {
 {/* HERO IMAGE */}
 <section
   className="w-full h-[240px] md:h-[486px] bg-[#3a2a20] bg-cover bg-center"
-  style={{ backgroundImage: "url('public/other-pages-img/img-1.jpg')" }}
+  style={{ backgroundImage: "url('/other-pages-img/img-1.jpg')" }}
 />
 
 
@@ -43,7 +43,7 @@ const Dining = () => {
     <div className="flex flex-col md:flex-row bg-[#f2f2f2] md:min-h-[215px] mb-[30px] md:mb-[44px]">
 
       <img
-        src="public/other-pages-img/img-2.jpg"
+        src="/other-pages-img/img-2.jpg"
         alt="ARC Restaurant & Lounge"
         className="w-full h-[220px] md:h-auto md:w-[264px] shrink-0 object-cover bg-[#d9d9d9]"
       />
@@ -77,7 +77,7 @@ const Dining = () => {
     <div className="flex flex-col md:flex-row bg-[#f2f2f2] md:min-h-[215px] mb-[30px] md:mb-[44px]">
 
       <img
-        src="public/other-pages-img/img-3.jpg"
+        src="/other-pages-img/img-3.jpg"
         alt="ARC In-Room dining"
         className="w-full h-[220px] md:h-auto md:w-[264px] shrink-0 object-cover bg-[#d9d9d9]"
       />
@@ -111,7 +111,7 @@ const Dining = () => {
     <div className="flex flex-col md:flex-row bg-[#f2f2f2] md:min-h-[215px]">
 
       <img
-        src="public/other-pages-img/img-4.png"
+        src="/other-pages-img/img-4.png"
         alt="ARC Market Place"
         className="w-full h-[220px] md:h-auto md:w-[264px] shrink-0 object-cover bg-[#d9d9d9]"
       />

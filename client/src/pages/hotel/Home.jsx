@@ -106,7 +106,7 @@ const Home = () => {
       <div className="bg-[#f2f2f2] flex flex-col">
 
         <img
-          src="public/home-img/img-2.jpg"
+          src="/home-img/img-2.jpg"
           alt="Intimate Queen Room"
           className="w-full aspect-[1.76/1] object-cover"
         />
@@ -145,7 +145,7 @@ const Home = () => {
       <div className="bg-[#f2f2f2] flex flex-col">
 
         <img
-          src="public/home-img/img-3.jpg"
+          src="/home-img/img-3.jpg"
           alt="Majestic King Room"
           className="w-full aspect-[1.76/1] object-cover"
         />
@@ -183,7 +183,7 @@ const Home = () => {
       <div className="bg-[#f2f2f2] flex flex-col">
 
         <img
-          src="public/home-img/img-4.jpg"
+          src="/home-img/img-4.jpg"
           alt="Premier King Room"
           className="w-full aspect-[1.76/1] object-cover"
         />
@@ -238,7 +238,7 @@ const Home = () => {
   {/* IMAGE */}
   <div
     className="relative w-full md:w-1/2 md:max-w-[721px] min-h-[300px] md:min-h-[545px] bg-[#3a2a20] bg-cover bg-center"
-    style={{ backgroundImage: "url('public/home-img/img-5.jpg')" }}
+    style={{ backgroundImage: "url('/home-img/img-5.jpg')" }}
   >
     <div className="absolute bottom-[18px] left-1/2 -translate-x-1/2 flex items-center gap-3 text-[14px]">
       <button aria-label="Previous"><FaAngleLeft /></button>
@@ -287,7 +287,7 @@ const Home = () => {
       {/* IMAGE */}
       <div
         className="w-full md:w-1/2 min-h-[300px] bg-[#6b7a5a] bg-cover bg-center"
-        style={{ backgroundImage: "url('public/home-img/img-6.png')" }}
+        style={{ backgroundImage: "url('/home-img/img-6.png')" }}
       />
 
       {/* CONTENT */}

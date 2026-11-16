@@ -7,7 +7,7 @@ const Meetings = () => {
 {/* HERO IMAGE */}
 <section
   className="w-full h-[260px] md:h-[667px] bg-[#2b2b2b] bg-cover bg-center"
-  style={{ backgroundImage: "url('public/other-pages-img/img-5.jpg')" }}
+  style={{ backgroundImage: "url('/other-pages-img/img-5.jpg')" }}
 />
 
 
@@ -45,7 +45,7 @@ const Meetings = () => {
     {/* CARD 1 — THE O'CONNOR MEETING ROOM */}
     <div className="flex flex-col bg-[#f2f2f2]">
       <img
-        src="public/other-pages-img/img-6.jpg"
+        src="/other-pages-img/img-6.jpg"
         alt="The O'Connor Meeting Room"
         className="h-[255px] w-full object-cover bg-[#d9d9d9]"
       />
@@ -68,7 +68,7 @@ const Meetings = () => {
     {/* CARD 2 — THE SLATER BOARDROOM */}
     <div className="flex flex-col bg-[#f2f2f2]">
       <img
-        src="public/other-pages-img/img-7.jpg"
+        src="/other-pages-img/img-7.jpg"
         alt="The Slater Boardroom"
         className="h-[255px] w-full object-cover bg-[#d9d9d9]"
       />
@@ -91,7 +91,7 @@ const Meetings = () => {
     {/* CARD 3 — THE LIBRARY BOARDROOM */}
     <div className="flex flex-col bg-[#f2f2f2]">
       <img
-        src="public/other-pages-img/img-8.jpg"
+        src="/other-pages-img/img-8.jpg"
         alt="The Library Boardroom"
         className="h-[255px] w-full object-cover bg-[#d9d9d9]"
       />

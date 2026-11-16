@@ -5,7 +5,7 @@ const About = () => {
 {/* HERO IMAGE */}
 <section
   className="w-full h-[240px] md:h-[486px] bg-[#3a2a20] bg-cover bg-center"
-  style={{ backgroundImage: "url('public/other-pages-img/about-img.jpg')" }}
+  style={{ backgroundImage: "url('/other-pages-img/about-img.jpg')" }}
 />
 
 
